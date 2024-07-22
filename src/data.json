@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Agile-Vacuum",
+    "summary": "The goal of this project over the course of the academic quarter is to decompose project requirements and collaborate to prioritize, define, and implement features in an Agile team environment.",
+    "technology": "Spring MVC/Boot, Thymeleaf, JQuery, Toastr, P5, CSS, H2Database, Maven, CircleCI, Heroku, Git"
+  },
+  {
+    "name": "Wordle Clone",
+    "summary": "A clone of the popular wordle game",
+    "technology": "Spring MVC/Boot, Thymeleaf, MySQL"
+  },
+  {
+    "name": "TodoReact",
+    "summary": "Todo app allowing a user to create/update/delete rows of items",
+    "technology": "Typescript, React, CSS"
+  },
+  {
+    "name": "Library-App",
+    "summary": "Tutorial following Chad Darby and Eric Roby on how to create an online library app. Admin/User portal, checkout/return, writing reviews, authentication/authorization, pagination, and more",
+    "technology": "Bootstrap CSS, React, Spring Boot, Spring Security, Stripe"
+  },
+  {
+    "name": "Test-name",
+    "summary": "Test-summary",
+    "technology": ""
+  },
+  {
+    "name": "Test-name",
+    "summary": "Test-summary",
+    "technology": ""
+  },
+  {
+    "name": "Test-name",
+    "summary": "Test-summary",
+    "technology": ""
+  },
+  {
+    "name": "A",
+    "summary": "Test-summary",
+    "technology": ""
+  }
+]
