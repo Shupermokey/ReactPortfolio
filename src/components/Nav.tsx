@@ -1,11 +1,19 @@
 export default function Nav() {
   return (
     <div className="nav-bar">
-      <div className="nav-home">Home</div>
+      <a href="/home" className="nav-home">
+        Home
+      </a>
       <div className="nav-links">
-        <div className="nav-link">About</div>
-        <div className="nav-link">Contact</div>
-        <div className="nav-link">Projects</div>
+        <a href="#project-header" className="nav-link">
+          Projects
+        </a>
+        <a href="#courses-header" className="nav-link">
+          Udemy Courses
+        </a>
+        <a href="#bootcamps-header" className="nav-link">
+          Bootcamps
+        </a>
       </div>
     </div>
   );

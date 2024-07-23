@@ -20,23 +20,29 @@
     "technology": "Bootstrap CSS, React, Spring Boot, Spring Security, Stripe"
   },
   {
-    "name": "Test-name",
-    "summary": "Test-summary",
-    "technology": ""
+    "name": "Paint",
+    "summary": "Paint app using multiple design pattern strategies: Strategy, Observer, Command, Static Factory, and Decorator",
+    "technology": "Java 8"
   },
   {
-    "name": "Test-name",
-    "summary": "Test-summary",
-    "technology": ""
+    "name": "Inventory",
+    "summary": "App using 2 microservices: shopping and inventory",
+    "technology": "SpringBoot, Thymeleaf, BootStrap5, Lombok, Maven, MySQL, MongoDB, Docker, Heroku"
   },
   {
-    "name": "Test-name",
-    "summary": "Test-summary",
-    "technology": ""
+    "name": "Game Engine",
+    "summary": "Built a simple game engine from scratch: Math library, memory management system, file system, Object Meshes",
+    "technology": "C++"
   },
   {
-    "name": "A",
-    "summary": "Test-summary",
-    "technology": ""
+    "name": "Multi-threaded Sound Engine",
+    "summary": "Built a sound system using XAudio2. You can change pan, pitch, volume, loop, and repeat sounds",
+    "technology": "C++"
+  },
+  {
+    "name": "WebPortfolio",
+    "summary": "Built a personal portfolio using the barebone of web dev tools",
+    "technology": "Html, Css, JavaScript",
+    "gif": "folio.gif"
   }
 ]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Devslopes",
+    "summary": "Learn how to build a Full Stack web application with React and Java Spring Boot.",
+    "technology": "Spring Boot, React, Bootstrap, TypeScript"
+  },
+  {
+    "name": "GCP Associate Cloud Engineer",
+    "summary": "Becoming a Google Cloud (GCP) Certified Associate Cloud Engineer is a perfect approach to begin your Google Cloud journey.",
+    "technology": "Compute Engine, Gcloud, Instance Group, Load Balancing, Managed Services, Google App Engine, Kubernetes, Google Cloud Function, Google Cloud Run, Functions Gen 2, Cloud KMS, Block and File Storage, Object Storage, Authentication and Authorization, Databases, Asynchronous Communication, Private Networks, Operations, IAM, Pricing Calculator"
+  }
+]
