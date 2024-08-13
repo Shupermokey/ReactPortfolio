@@ -42,7 +42,6 @@
   {
     "name": "WebPortfolio",
     "summary": "Built a personal portfolio using the barebone of web dev tools",
-    "technology": "Html, Css, JavaScript",
-    "gif": "folio.gif"
+    "technology": "Html, Css, JavaScript"
   }
 ]

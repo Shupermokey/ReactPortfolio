@@ -1,0 +1,87 @@
+[
+  {
+    "Languages": [
+      "java",
+      "javascript",
+      "pythong",
+      "C++",
+      "TypeScript",
+      "Scala",
+      "C",
+      "Swift",
+      "PHP",
+      "TestingThis",
+      "TestingThis",
+      "TestingThis",
+      "TestingThis",
+      "TestingThis",
+      "TestingThis",
+      "TestingThis"
+    ]
+  },
+  {
+    "Frameworks": [
+      "SprintBoot",
+      "JSF",
+      "Hibernate",
+      "Prisma",
+      "React",
+      "Angular",
+      "Express"
+    ]
+  },
+  {
+    "Databases": [
+      "SQL",
+      "MySQL",
+      "MongoDB",
+      "Oracle",
+      "MySQL Workbench",
+      "Firebase",
+      "Supabase"
+    ]
+  },
+  {
+    "Web Dev": [
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "Thymeleaf",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "Testing": [
+      "Gherkin",
+      "Cucumber",
+      "JUnit",
+      "Jest",
+      "Jasmine",
+      "Vitest",
+      "Mockito",
+      "Fuzzing",
+      "TestNG",
+      "Selenium"
+    ],
+    "Tools": [
+      "Jira",
+      "Rally",
+      "PostMan",
+      "WorkFront",
+      "Percolate",
+      "SecureCRT",
+      "WinSCP"
+    ],
+    "Methodologies": ["Agile", "Scrum", "Kanban", "Jira", "Trello"],
+    "DevOps & Cloud": [
+      "GCP",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Travis CI",
+      "CircleCI",
+      "Heroku"
+    ],
+    "Version Control": ["Git", "GitHub", "GitLab", "Bitbucket", "Perforce"]
+  }
+]

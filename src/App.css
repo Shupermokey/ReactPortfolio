@@ -46,39 +46,185 @@ body {
 /* HERO */
 .hero-container {
   width: 100%;
-
-  /* border: 1px solid black; */
   margin-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.hero-container .hero img {
+.hero-left {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.portfolio-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-info div {
+  margin-bottom: 10px;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.portfolio-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: xx-large;
+}
+
+.hero-right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.profile-img {
   width: 100%;
-  height: 300px;
-  border-radius: 25px;
-  z-index: -1;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.hero-social-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.hero-social-container .social-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.highlight {
+  background-color: rgba(30, 180, 200, 0.4);
+}
+
+.skills {
+  align-self: flex-start;
+  justify-self: flex-end;
+  width: 100%;
+}
+
+.skill-row {
+  display: flex;
+  text-align: right;
+}
+
+.skills-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  padding: 4px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.skill:hover {
+  background-color: #ebbab9;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.bold {
+  font-weight: 900;
+  min-width: 130px;
+  padding-right: 10px;
+}
+
+.overlay {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  width: 85%;
+  height: 85%;
+  background-color: rgb(63, 161, 161);
+  border-radius: 16px;
+  z-index: 10;
+}
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.modalClose {
+  text-align: right;
+}
+
+.modalClose p {
+  padding: 3px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 8px;
+  border-radius: 3px;
+}
+
+.modalTitle {
+  justify-self: center;
+  align-self: center;
+  font-size: 50px;
+}
+
+.modalGif {
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.modalSummary {
+  justify-self: center;
+  align-self: center;
+  font-size: x-large;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.modalTech {
+  justify-self: center;
+  align-self: center;
+  font-size: x-large;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 /* Projects */
 .project-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  /* border: 1px solid black; */
   margin: auto;
-  margin-bottom: 15px;
+  margin-bottom: 100px;
+  flex-wrap: nowrap;
 }
 
 .card-carousel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 750px;
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+  color: #ecf0f1;
 }
 
-.arrow {
-  font-size: 50px;
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #2c3e50;
 }
 
 .card {
@@ -87,17 +233,20 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 10px;
-  height: 300px;
-  width: 200px;
+  height: 400px;
+  width: 300px;
   padding: 10px;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 15px 2px rgb(87, 86, 83);
   text-align: start;
   background-color: #ebbab9;
+
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: transform 0.75s;
+  transition: ease-in;
 }
 
 .card:hover {
@@ -107,6 +256,7 @@ body {
 .card-title {
   font-size: 25px;
   margin-bottom: 15px;
+  color: black;
 }
 
 .card-sum {
@@ -124,120 +274,7 @@ body {
 .card-title,
 .card-sum,
 .card-tech {
-  color: #407076;
-}
-
-/* Courses */
-.course-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-  /* border: 1px solid black; */
-  margin-bottom: 15px;
-}
-
-.course {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px;
-  height: 300px;
-  width: 200px;
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 5px 5px 15px 2px rgb(87, 86, 83);
-  text-align: start;
-  background-color: #ebbab9;
-}
-
-.course:hover {
-  transform: scale(1.05);
-}
-
-.course-title {
-  font-size: 25px;
-  margin-bottom: 15px;
-}
-
-.course-sum {
-  margin-bottom: 15px;
-  align-self: center;
-  justify-self: center;
-  height: 50%;
-}
-
-.course-tech {
-  height: 33%;
-  justify-self: end;
-}
-
-.course-title,
-.course-sum,
-.course-tech {
-  color: #407076;
-}
-
-.section-header {
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-/* BOOTCAMPS */
-
-.camp-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-}
-
-.camp {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px;
-  height: 150px;
-  width: 900px;
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 5px 5px 15px 2px rgb(87, 86, 83);
-  text-align: start;
-  background-color: #ebbab9;
-  transition: transform 3s;
-  transform-style: preserve-3d;
-}
-
-.camp:hover {
-  animation: slideFlip 0.5s;
-}
-
-.camp-title {
-  font-size: 25px;
-  margin-bottom: 15px;
-}
-
-.camp-sum {
-  margin-bottom: 15px;
-  align-self: center;
-  justify-self: center;
-  height: 50%;
-}
-
-.camp-tech {
-  height: 33%;
-  justify-self: end;
-}
-
-.camp-title,
-.camp-sum,
-.camp-tech {
-  color: #407076;
+  color: black;
 }
 
 .section-header {
@@ -273,20 +310,4 @@ body {
 .footer-left div,
 .footer-right div {
   padding: 10px;
-}
-
-/* ANNIMATIONS */
-@keyframes slideFlip {
-  0% {
-  }
-
-  50% {
-    transform: translate(20px, -20px) rotateY(20deg);
-  }
-
-  70% {
-    transform: rotateY(20deg);
-  }
-  100% {
-  }
 }

@@ -9,7 +9,7 @@ export default function Nav() {
           Projects
         </a>
         <a href="#courses-header" className="nav-link">
-          Udemy Courses
+          Courses
         </a>
         <a href="#bootcamps-header" className="nav-link">
           Bootcamps
